@@ -1,0 +1,7 @@
+# pnpm-workspace.yaml
+packages:
+  # 所有在 apps/ 和 packages/ 目录下的包
+  - 'apps/*'
+  - 'packages/*'
+  # 如果某些子目录不属于工作区，可以排除
+  - '!**/test/**'
